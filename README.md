@@ -8,7 +8,7 @@ This repository contains a simple HTML page showcasing various educational and p
 - Clickable cards to open respective links in a new tab
 
 ## Usage
-Simply open (index.html) in a web browser to view the page. Click on any card to navigate to the corresponding link.
+Simply open [webpage](Dinesh.html) in a web browser to view the page. Click on any card to navigate to the corresponding link.
 
 ## Contributing
 Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
