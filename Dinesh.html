@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/Dinesh/Desktop/WD301/personal/index2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Works</title>
+<style>
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color:white;
+}
+
+#dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#dashboard a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+}
+
+</style>
+</head>
+<body>
+  <div id="dashboard">
+    <h1>MY WORKS</h1><form id="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+        <input type="text" id="search-input" name="q" placeholder="Search Google">
+        <button type="submit">Search</button>
+      </form>
+    <div id="dashboard-links">
+      <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
+      <a href="https://mail.google.com/mail/u/0/#inbox/" target="_blank">Gmail</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://drive.google.com/" target="_blank">Drive</a>
+      <a href="https://colab.research.google.com/" target="_blank">Colab</a>
+    </div>
+  </div>
+
+  <div id="card-container">
+    <!-- Static cards -->
+    <div class="card" onclick="openLink(&#39;https://placements.vedic.dev/home/dashboard&#39;)">
+      <h3>Full Stack clg</h3>
+      <p>Click to open</p>
+    </div>
+
+    <div class="card" onclick="openLink(&#39;https://enterprise.edx.org/APSCHE?_gl=1*tx87x1*_gcl_au*NTE5NDUyNTE1LjE3MTUzMjMxODQ.*_ga*MTUzNjk0NzE3My4xNzE1MzIzMTg0*_ga_D3KS4KMDT0*MTcyMDkzMzIyMS40OC4xLjE3MjA5MzMzNjQuNjAuMC4w&#39;)">
+      <h3>Edx</h3>
+      <p>Click to open</p>
+    </div>
+
+    <div class="card" onclick="openLink(&#39;https://www.cloudskillsboost.google/paths&#39;)">
+      <h3>Google Cloud Skills Boost</h3>
+      <p>Click to open</p>
+    </div>
+    <div class="card" onclick="openLink(&#39;https://leetcode.com/u/DWARAMPUDI_DINESH_ESWAR_REDDY/&#39;)">
+        <h3>LeetCode</h3>
+        <p>Click to open</p>
+      </div>
+
+      <div class="card" onclick="openLink(&#39;https://www.coursera.org/programs/grow-with-google-oef62&#39;)">
+        <h3>Course Era</h3>
+        <p>Click to open</p>
+      </div>
+
+      <div class="card" onclick="openLink(&#39;https://swayam.gov.in/mycourses&#39;)">
+        <h3>NPTEL</h3>
+        <p>Click to open</p>
+      </div>
+
+      <div class="card" onclick="openLink(&#39;https://www.hackerrank.com/profile/23pa5a0506&#39;)">
+        <h3>Hacker Rank</h3>
+        <p>Click to open</p>
+      </div>
+
+      <div class="card" onclick="openLink(&#39;https://www.geeksforgeeks.org/user/23pa5a0506/&#39;)">
+        <h3>Geeks For Geeks</h3>
+        <p>Click to open</p>
+      </div>
+
+      <div class="card" onclick="openLink(&#39;https://codingbat.com/python&#39;)">
+        <h3>Coding Bat</h3>
+        <p>Click to open</p>
+      </div>
+      
+      <div class="card" onclick="openLink(&#39;https://developer.android.com/courses/android-basics-compose/course&#39;)">
+        <h3>COHORT - 9</h3>
+        <p>Click to open</p>
+      </div>
+      <div class="card">
+        <div onclick="openLink(&#39;https://vishnu.ac.in/StudentMaster.aspx&#39;)">
+        <h3>Attendance</h3>
+        </div>
+        <div onclick="openLink(&#39;https://vishnulearning.com/my/index.php&#39;)">
+            <h3>LMS</h3>
+        </div>
+      </div>
+
+
+    <!-- Add more cards as needed -->
+    <!-- Example for 20 cards: -->
+    <!-- 
+    <div class="card" onclick="openLink('https://www.example.com/page4')">
+      <h3>Card 4</h3>
+      <p>Click to open</p>
+    </div>
+    ... repeat for cards 5 to 20 ...
+    -->
+
+  </div>
+
+  <script>
+    // Function to open URL in new tab
+    function openLink(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+
+
+
+</body></html>
